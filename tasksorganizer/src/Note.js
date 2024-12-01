@@ -1,5 +1,5 @@
 import React from "react";
-import { propTypes } from "react-bootstrap/esm/Image";
+import { PropTypes } from "prop-types";
 
 const Note = (props) => {
   return (
@@ -14,10 +14,10 @@ const Note = (props) => {
 };
 
 Note.propTypes = {
-  title: propTypes.string.isRequired,
-  category: propTypes.string.isRequired,
-  details: propTypes.string.isRequired,
-  date: propTypes.instanceOf(Date).isRequired,
+  title: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+  details: PropTypes.string.isRequired,
+  date: PropTypes.instanceOf(Date).isRequired,
 };
 
 export default Note;

@@ -1,5 +1,5 @@
 import React from "react";
-import Notes from "./Notes";
+import Notes from "./Notes.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

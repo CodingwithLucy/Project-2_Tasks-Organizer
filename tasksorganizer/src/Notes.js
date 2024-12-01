@@ -1,6 +1,6 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-import Note from "./Note";
+import Note from "./Note.js";
 
 function Notes() {
   const noteList = [
